@@ -1,5 +1,3 @@
-package practice.ap.college;
-
 import java.util.Scanner;
 
 public class practice4 {
