@@ -1,4 +1,5 @@
 package practice.ap.college;
+
 import java.util.Scanner;
 
 public class practice4 {
@@ -13,7 +14,7 @@ public class practice4 {
         int choice = in.nextInt();
 
         switch (choice) {
-            case 1 -> { // Завдання 1
+            case 1 -> {
                 System.out.print("Введіть a: ");
                 double a = in.nextDouble();
 
@@ -37,7 +38,7 @@ public class practice4 {
                 System.out.println("f(x) = " + f);
             }
 
-            case 2 -> { // Завдання 2
+            case 2 -> {
                 System.out.print("Введіть ціле число: ");
                 int num = in.nextInt();
 
@@ -47,8 +48,6 @@ public class practice4 {
                     reversed = reversed * 10 + temp % 10;
                     temp /= 10;
                 }
-
-                // Вивід з ведучими нулями (10 цифр)
                 System.out.printf("Реверс: %010d%n", reversed);
             }
 
