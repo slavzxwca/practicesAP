@@ -15,19 +15,17 @@ public class ex2 {
 
         double fx;
 
-        // Обчислення f(x) згідно з умовою
         if (x >= -1 && x < 6) {
             fx = Math.sin(x);
         } else if (x == 6) {
             fx = 3 * Math.pow(x, 2) + b * x - 3;
         } else if (x > 6) {
-            fx = Math.log(b * x + a); // натуральний логарифм
+            fx = Math.log(b * x + a);
         } else {
             System.out.println("x не входить у допустиму область [-1, +∞)");
             return;
         }
 
-        // Виведення результату
         System.out.printf("f(x) = %.5f%n", fx);
     }
 }
