@@ -9,7 +9,7 @@ public class Task3 {
         System.out.print("Введіть речення: ");
         String input = sc.nextLine();
 
-        // Розбиваємо строку по пробілам
+
         String[] words = input.split("\\s+");
 
         String shortest = words[0];

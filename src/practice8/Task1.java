@@ -9,10 +9,10 @@ public class Task1 {
         System.out.print("Введіть строку: ");
         String input = sc.nextLine();
 
-        // Прибираємо пробіли та переводимо до нижнього регістру
+
         String cleaned = input.replace(" ", "").toLowerCase();
 
-        // Перевертаємо строку
+
         String reversed = new StringBuilder(cleaned).reverse().toString();
 
         if (cleaned.equals(reversed)) {
