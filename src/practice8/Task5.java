@@ -7,7 +7,7 @@ public class Task5 {
         Scanner sc = new Scanner(System.in);
 
 
-        String[] badWords = {"долбаеб", "чорт", "лох", "пизда", "пидор", "сука", "блять", "ебать", "ебал"};
+        String[] badWords = {"долбаеб", "чорт", "лох", "пизда", "пидор", "сука", "блять", "ебать", "ебал", "иди нахуй", "нахуй"};
 
         System.out.print("Введіть текст: ");
         String input = sc.nextLine();
